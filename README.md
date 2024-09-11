@@ -65,12 +65,14 @@ NSsites Model 8: beta&w>1 (11 categories)
 lnL(ntime: 23  np: 28):  -1106.388268      +0.000000
 ......
 ```
-- 然后进行似然比检验（LRT）:    
-$LR = 2 \times \rvert lnL_1-lnL_2 \rvert$  
-- 然后对进行卡方检验($\chi^2$ Test),使用paml里的chi2程序
-```shell
-/workspaces/dN_dS/software/paml-4.10.7/bin/chi2 2 LR
-```
+- 然后进行似然比检验（LRT）:
+> 计算LR值：    
+> $LR = 2 \times \rvert lnL_1-lnL_2 \rvert$  
+> 对LR值进行卡方检验($\chi^2$ Test),使用paml里的chi2程序
+> ```shell
+> /workspaces/dN_dS/software/paml-4.10.7/bin/chi2 2 LR
+> ```
+paml结果统计：  
 | **Model**   | **np**          | **lnL**    | **P** **、ω**                                                |
 | ----------- | --------------- | ---------- | ------------------------------------------------------------ |
 | **m0**      | 25              | -1137.6882 | ω=0.90129                                                    |
