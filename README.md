@@ -1,11 +1,11 @@
 # dN_dS
-本次操作需要两个软件
+本次操作在github上的Codespaces上操作，需要两个软件
 
 - **[hyphy](https://github.com/veg/hyphy/releases)**  
 - **[paml](https://github.com/abacus-gene/paml/releases)**
 ## 准备工作
-**paml和hyphy已经下载完成，paml可以直接使用，hyphy需要编译**
-**hyphy编译**
+**在Codespaces上paml和hyphy已经下载完成，paml可以直接使用，hyphy需要编译**   
+**hyphy编译**   
 ```shell
 cd /workspaces/dN_dS/software/
 cmake -DCMAKE_INSTALL_PREFIX=/workspaces/dN_dS/software/hyphy-2.5.62
@@ -14,7 +14,7 @@ make install
 ```
 
 数据说明：  
-    本次操作采用的是软件paml自带的数据集HIVNSsites（在paml软件的examples文件夹下） 里面主要是比对文件（phy格式），树文件，和配置文件（codeml.ctl）
+    本次操作采用的是软件paml自带的数据集HIVNSsites（在paml软件的examples文件夹下） 里面主要是比对文件（phy格式），树文件，和配置文件（codeml.ctl）   
 
 # 基本知识  
 - 选择压力（Selective Pressure） 是指自然环境对生物个体施加的一种压力，促使适应环境的个体生存下来，不适应的个体被淘汰，从而推动种群基因频率的变化。选择压力可以分为正选择、负选择和中性选择。  
