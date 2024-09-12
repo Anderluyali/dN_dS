@@ -3,14 +3,15 @@
 
 - **[hyphy](https://github.com/veg/hyphy/releases)**  
 - **[paml](https://github.com/abacus-gene/paml/releases)**
-
-  **hyphy需要编译一下**
-  ```shell
-  cd /workspaces/dN_dS/software/
-  cmake -DCMAKE_INSTALL_PREFIX=/workspaces/dN_dS/software/hyphy-2.5.62
-  make
-  make install
-  ```
+## 准备工作
+**paml和hyphy已经下载完成，paml可以直接使用，hyphy需要编译**
+**hyphy编译**
+```shell
+cd /workspaces/dN_dS/software/
+cmake -DCMAKE_INSTALL_PREFIX=/workspaces/dN_dS/software/hyphy-2.5.62
+make
+make install
+```
 
 数据说明：  
     本次操作采用的是软件paml自带的数据集HIVNSsites（在paml软件的examples文件夹下） 里面主要是比对文件（phy格式），树文件，和配置文件（codeml.ctl）
