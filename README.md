@@ -5,9 +5,9 @@
 - **[paml](https://github.com/abacus-gene/paml/releases)**
 ## 准备工作
 **在Codespaces上paml和hyphy已经下载完成，paml可以直接使用，hyphy需要编译**   
-**hyphy编译**   
+**hyphy编译：**   
 ```shell
-cd /workspaces/dN_dS/software/
+cd /workspaces/dN_dS/software/hyphy-2.5.62/
 cmake -DCMAKE_INSTALL_PREFIX=/workspaces/dN_dS/software/hyphy-2.5.62
 make
 make install
