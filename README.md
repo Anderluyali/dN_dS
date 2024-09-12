@@ -1,5 +1,5 @@
 # dN_dS
-本次操作在github上的Codespaces上操作，需要两个软件
+本次操作在github上的Codespaces上进行，需要两个软件
 
 - **[hyphy](https://github.com/veg/hyphy/releases)**  
 - **[paml](https://github.com/abacus-gene/paml/releases)**
